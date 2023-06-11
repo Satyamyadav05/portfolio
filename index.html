@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>satyam's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/24176f665e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <header>
+    <nav>
+        <div class="left"><img src="logo.png" alt=""></div>
+        <div class="right">
+            <ul>
+                <li> <a href="#header">Home</a></li>
+                <li><a href="#about"> About </a> </li>
+                <li><a href="#srvices">Services</a> </li>
+                <li><a href="#contact me"> Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+   </header>
+
+
+   <main>
+    
+        <div class="leftsection">Hi, My Name is <span class="red" >Satyam</span> 
+            <div>and I am a Passionate</div>
+            <span id="element"></span>
+
+        </div>
+        <div class="rightsection"><img src="d1.png" alt=""></div>
+   
+   </main>
+
+   <div class="About">
+    <div class="row1">
+        <img src=".vscode/photo 1.jpg" alt=""> </div>
+    <div class="row2"> <h1 class="sub-title"> About me</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt non veritatis eveniet nostrum molestias. Nesciunt tempore voluptate odit numquam totam recusandae, voluptates voluptatem repudiandae quae quidem distinctio a soluta. Cumque asperiores consequatur, laborum laudantium dolores eligendi sit accusamus error assumenda provident rerum at! Deserunt temporibus earum dicta consequatur nam, consectetur voluptate sit sed ut accusantium est voluptas </p>
+   <div class="tab-titles" id="tt">
+
+    <p class="tablinks active-link" onclick="change()">Skills</p>
+    <p class="tablinks" onclick="change()">Education</p>
+    
+   </div>
+   <div class="tab-contents active-tab" id="Skills">
+    <ul>
+        <li><span>Web development</span> <br> Web App development</li>
+        <li><span>App development</span> <br></li> Android/ios apps</li>
+        <li><span>UI/UX </span> <br> Designing Web app interfaces</li>
+    </ul>
+   </div>
+   <div class="tab-contents" id="Education">
+    <ul>
+        <li><span>2023</span> <br>full stack Web Development Traninig from Ducat,Gurugram </li>
+        <li><span>2022-2025</span> <br></li> Bachelors's in Computer Application from Raffles University, Neemrana</li>
+       
+    </ul>
+   </div>
+ </div>
+   
+   </div>
+
+
+   <!-- ---------------services--------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero reiciendis dolore culpa facere eius perferendis provident tempore temporibus perspiciatis.</p>
+                <a href="#">learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iusto architecto harum! Quaerat, fugit quia placeat ut quibusdam inventore iusto!</p>
+                <a href="#">learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App development</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero   reiciendis dolore culpa facere eius perferendis provident tempore temporibus perspiciatis. </p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- ---------contact--------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-sharp fa-solid fa-square-envelope"></i>  satyamyadavsatyamyadav1@gmail.com</p>
+                <p><i class="fa-solid fa-mobile-retro"></i>       +91-8949441830</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/raosatyam.yadav.1?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/raosatyamyadav?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://www.linkedin.com/in/satyam-yadav-925789255"><i class="fa-brands fa-linkedin"></i></a>
+                   
+                </div>
+
+                <a href="my cv.pdf.pdf" download class="btn">Download CV</a>
+
+
+                <div class="contact-right">
+                   <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required> <br><br>
+                    <input type="email" name="Email" placeholder="Your Email" required><br><br>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit"  class="btn btn2">submit</button>
+                   </form>
+                  <span id="msg"></span>
+                </div>
+
+
+            </div>
+            <div class="copyright">
+              <p>  copyright <i class="fa-solid fa-copyright"></i> Satyam.Made with  <i class="fa-solid fa-heart"></i>  By Satyam Yadav </p>
+            </div>
+    </div>
+</div>
+
+<!-- <div class="copyright">
+    <p>copyright <i class="fa-solid fa-copyright"></i> Satyam.Made with <i class="fa-solid fa-heart"></i> By Satyam Yadav</p>
+</div> -->
+
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer.', '&amp; Graphic Designer.', '&amp;Web desginer.'],
+      typeSpeed: 80,
+    }); 
+  </script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz1vI62pvDG3ZJicBUQuea0rOmLtizsK02p-ZgIV0n7SHUV-e0kdiUuSU4jDs1sSNG1sg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>  {
+            msg.innerHTML="message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },2000)
+            form.reset()
+        }
+           
+        )
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
